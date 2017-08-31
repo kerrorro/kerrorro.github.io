@@ -1,0 +1,131 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Quicksand|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700|Playfair+Display:400,400i,700,700i|Lato:300,400|Quicksand:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+
+		
+		<link rel="stylesheet" type="text/css" href="js/fullPage.js-master/jquery.fullPage.css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/26f50b807a.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+		<script src="js/fullPage.js-master/vendors/jquery.easings.min.js"></script>
+
+
+		<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+		<script type="text/javascript" src="js/fullPage.js-master/vendors/scrolloverflow.min.js"></script>
+
+		<script type="text/javascript" src="js/fullPage.js-master/jquery.fullPage.js"></script>
+		<script src="js/projects.js"></script>
+		 
+
+	</head>
+	<body>
+		<!-- NAVIGATION BAR -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		
+			<div class="container-fluid">
+				<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+	      			<span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      	</button>
+			   
+	    		</div>
+			   	<div class="collapse navbar-collapse" id="navbar">
+			   		<ul id="menu" class="nav navbar-nav navbar-right">
+			   		<li data-menuanchor="resume"><a href="caroline_chen_resume.pdf">resume</a></li>
+			   		<li data-menuanchor="projects"><a href="projects.html">projects</a></li>
+			   		</ul>
+			   	</div>
+		 	</div>
+		</nav>
+		
+		<div id="fullpage" class="content">
+
+		<div class="project-content">
+			<div id="section1" class="section" data-anchor="overview">
+	   		<img id="tag-logo" src="img/elements/tag-brand.png">
+			<div class="container-fluid">
+				<h2>HoloMote</h2>
+				<h4>RedBear Duo Microcontroller // Arduino IDE // Unity</h4>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<p>HoloMote is a prototype input device for the Microsoft Hololens, an augmented reality computer headset. Traditionally, the Hololens comes with built in gestures to manipulate holograms, such as the AirTap. The HoloMote was created as an alternative to these gestures to allow artists, designers, and modelers greater precision in manipulating their holograms through translation, rotation, and scaling.
+						</p>
+					</div>
+					  
+				</div>
+				
+			</div>
+			<div class="scroll-arrow scroll-down"><a class="fa fa-angle-down fa-3x" href="#details"></a></div>
+			</div>
+
+			<div id="section2" class="section" data-anchor="details">
+			<div class="scroll-arrow scroll-up"><a class="fa fa-angle-up fa-3x" href="#overview"></a></div>
+				<div class="slide" data-anchor="slide1"> 
+				
+					<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/dBO4s36RwHA?rel=0" frameborder="0" allowfullscreen></iframe>
+						<p>The HoloMote was created at UC Berkeley for the Interactive Device Design course. This interdisciplinary course brought together students from different engineering backgrounds. Our team consisted of 4 members: Caitlin Gruis (electrical engineering), Lara McNamara (mechanical engineering), Jonathan Shum (mechanical engineering/computer science), and me (computer science). Upon trying out the Microsoft Hololens, our team realized the difficulty in using the built-in airtap gesture due to lack of responsiveness. This was particularly true when trying to move holograms around the world. This problem spawned the start of the HoloMote.
+						</p>
+						</div>
+					</div>
+					</div>
+				</div>
+
+			
+
+				<div class="slide" data-anchor="slide2"> 
+					<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+						<img src="img/projects/holomote/hero-banner.png">
+						</div>
+						<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<p>The device itself features 3 colored pseudo-mode buttons for translation (blue), scalling(green), and rotation (yellow) as well as a clickable joystick. While modes are often seen as confusing, we chose to prioritize simplifying the number of buttons on the device. Pseudo-modes allowed us to get all the necessary hologram interactions with only 3 buttons, a joystick, and an IMU.
+						<br><br>
+						Users could select a hologram by pointing at it with the on-screen Hololens cursor and clicking the joystick. To translate the selected hologram, users would hold the blue button to go into translation mode and move the joystick to translate in the xz-plane. Y-plane translation was done by holding the translation button and tilting the device up/down. This same interaction of tilting the device was used for scaling. Lastly, users could rotate their holograms by holding the yellow button and rotating the device. The direction of angular velocity was used to rotate the holograms in the same direction at a fixed speed.
+						</p>
+						</div>
+					</div>
+					</div>
+				</div> 
+				
+				<div class="slide" data-anchor="slide3">
+					<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/GuJztdWu5Vs?rel=0" frameborder="0" allowfullscreen></iframe>
+						<p>I worked with Jonathan primarily on the Hololens companion app used to showcase our product. The initial UI design (see video) was mocked up in Microsoft Powerpoint and Adobe Illustrator. The idea behind the design was to provide the user with live information of the transformations on their holograms. This was done by having the objects glow the same color as the pseudo-mode button pressed as well as having a HUD with the transformation icon and extra information. We decided to scrap the undo button and rotation sphere in the final design due to clutter. In the original design, users would also be able to import and delete their own models to the model toolkit. This feature was not implemented due to time constraints. 
+						<br><br>
+						In addition to the UI, we also paired the RedBear Duo microcontroller in our device to the Microsoft Hololens through UDP wireless communication. Furthermore, a lot of our efforts were spent refining sensor readings to obtain more fluid transformations.
+						</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			
+	   		
+		</div>
+		</div>
+   	</div>
+
+    	
+	</body>
+
+
+</html>

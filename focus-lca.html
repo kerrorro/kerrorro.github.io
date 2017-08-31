@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Quicksand|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700|Playfair+Display:400,400i,700,700i|Lato:300,400|Quicksand:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+
+		
+		<link rel="stylesheet" type="text/css" href="js/fullPage.js-master/jquery.fullPage.css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/26f50b807a.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+		<script src="js/fullPage.js-master/vendors/jquery.easings.min.js"></script>
+
+
+		<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+		<script type="text/javascript" src="js/fullPage.js-master/vendors/scrolloverflow.min.js"></script>
+
+		<script type="text/javascript" src="js/fullPage.js-master/jquery.fullPage.js"></script>
+		<script src="js/projects.js"></script>
+		 
+
+	</head>
+	<body>
+
+		<!-- NAVIGATION BAR -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		
+			<div class="container-fluid">
+				<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+	      			<span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      	</button>
+			   
+	    		</div>
+			   	<div class="collapse navbar-collapse" id="navbar">
+			   		<ul id="menu" class="nav navbar-nav navbar-right">
+			   		<li data-menuanchor="resume"><a href="caroline_chen_resume.pdf">resume</a></li>
+			   		<li data-menuanchor="projects"><a href="projects.html">projects</a></li>
+			   		</ul>
+			   	</div>
+		 	</div>
+		</nav>
+		
+		<div id="fullpage" class="content">
+
+		<div class="project-content">
+			<div id="section1" class="section" data-anchor="overview">
+	   	
+	   		<img id="tag-logo" src="img/elements/tag-brand.png">
+	   		<div class="container-fluid">
+				<h2>Focus LCA</h2>
+				<h4>HTML & CSS // JAVASCRIPT // RUBY ON RAILS // GOOGLE CHARTS API</h4>
+			
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<p>Focus LCA is a web application designed to streamline the process of running life cycle assessments. Life cycle assessments are commonly run by environmental experts for companies interested in understanding the environmental impacts of particular products or business decisions. While software solutions to automate aspects of the LCA process exist, they have high learning curves stemming from outdated interfaces and required expert knowledge to navigate complex functionality. With the hopes of improving accessibility beyond the environmental expert to product designers and engineers, Focus LCA was created to expediate system modeling and offer more intuitive data visualization. This streamlining of the process can ultimately result in a company’s improved ability to produce greener products and reduce systematic impacts.
+						</p>
+					</div>
+					  
+				</div>
+				
+			</div>
+			<div class="scroll-arrow scroll-down"><a class="fa fa-angle-down fa-3x" href="#details"></a></div>
+			</div>
+
+			<div id="section2" class="section" data-anchor="details">
+			<div class="scroll-arrow scroll-up"><a class="fa fa-angle-up fa-3x" href="#overview"></a></div>
+				<div class="slide" data-anchor="slide1"> 
+				
+					<div class="container-fluid no-overlap">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/j5OHe1ulwPs" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<p class="details">Focus LCA started at UC Berkeley as the brain child of Jeremy Faludi, a PhD graduate in Mechanical Engineering, whose primary interests lie in sustainable design. For our Master of Engineering capstone project, my teammate, Jonya Chen, and I took on the task of improving life cycle assessment software through two major goals: <br><br>1) Simplifying the process of mocking up a model. <br>2) Displaying environmental impact results more intuitively.
+						</p>
+						</div>
+					</div>
+					</div>
+				</div>
+
+			
+
+				<div class="slide" data-anchor="slide2"> 
+					<div class="container-fluid no-overlap">
+					<div class="row">
+						<div class="col-sm-6 col-xs-12">
+							<img class="valign" alt="Prototypes" src="img/projects/focus-lca/focus-lca-prototypes.gif">
+						</div>
+						<div class="col-sm-6 col-xs-12 valign">
+						<p>The project was split into two phases. The first semester was spent user testing various workflow concepts to obtain an understanding of our target users. We drew from a pool of mostly mechanical engineer Master's candidates to test both low and high fidelity prototypes. We felt that they most closely emulated our primary target users: product designers and engineers who may not have had prior exposure to using life cycle assessment software. Luckily during the user testing phase, a team of undergraduate developers hopped on board to kickstart the development process. As such, our capstone project was not only a practice in project management but also in team management. 
+						</p>
+						</div>
+					</div>
+					</div>
+				</div> 
+				
+				<div class="slide" data-anchor="slide3">
+					<div class="container-fluid no-overlap">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<img src="img/projects/focus-lca/model-building.png">
+						</div>
+						<div class="col-md-5">
+							<img src="img/projects/focus-lca/impact-graph.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<p>We picked up on the development during the second semester where Jonya was primarily responsible with improvements on the model building page, while I handled databases, backend impact calculations, and data visualization. The calculation results were displayed using the Google Charts API with drilldown functionality so that the hierarchy of items added in the model was preserved. 
+						</p>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="slide" data-anchor="slide4">
+					<div class="container-fluid no-overlap">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<img src="img/projects/focus-lca/uncertainty-graph.png">
+						</div>
+						<div class="col-md-5">
+							<img src="img/projects/focus-lca/uncertainty-graph-2.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<p>What makes Focus LCA unique from other life cycle assessment software is its flexibility in adding non-specific items such that models can be generated quickly without knowing the exact details. This saves a lot of time in information gathering which is often the most time-consuming portion of the life cycle assessment process. In order to supplement this flexibility, we also wanted to give a sense for quality of results obtained. Through uncertainty graphs, we could show the range of approximation for the environmental impact results. In application: if users do not know exactly what kind of copper went into the product, they could possibly see that its environmental impact is so low that the uncertainty doesn't make much of a difference. Or perhaps the opposite: where the impact is high, so they know to spend that time identifying exactly what kind of copper it was.
+						<br><br>
+						Read more in-depth in my <a href="https://drive.google.com/file/d/0B0HyvKB9d2ExRjZ6ZFFfaVNVLVE/view?usp=sharing">final capstone report</a>.
+						</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+   	
+	</body>
+
+
+</html>

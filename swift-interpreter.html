@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Quicksand|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700|Playfair+Display:400,400i,700,700i|Lato:300,400|Quicksand:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+
+		
+		<link rel="stylesheet" type="text/css" href="js/fullPage.js-master/jquery.fullPage.css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/26f50b807a.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- This following line is optional. Only necessary if you use the option css3:false and you want to 
+use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+		<script src="js/fullPage.js-master/vendors/jquery.easings.min.js"></script>
+
+
+		<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+		<script type="text/javascript" src="js/fullPage.js-master/vendors/scrolloverflow.min.js"></script>
+
+		<script type="text/javascript" src="js/fullPage.js-master/jquery.fullPage.js"></script>
+		<script src="js/projects.js"></script>
+		 
+
+	</head>
+	<body>
+		<!-- NAVIGATION BAR -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		
+			<div class="container-fluid">
+				<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+	      			<span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      	</button>
+			   
+	    		</div>
+			   	<div class="collapse navbar-collapse" id="navbar">
+			   		<ul id="menu" class="nav navbar-nav navbar-right">
+			   		<li data-menuanchor="resume"><a href="caroline_chen_resume.pdf">resume</a></li>
+			   		<li data-menuanchor="projects"><a href="projects.html">projects</a></li>
+			   		</ul>
+			   	</div>
+		 	</div>
+		</nav>
+		
+		<div id="fullpage" class="content">
+
+		<div class="project-content">
+			<div id="section1" class="section" data-anchor="overview">
+	   	
+	   		<img id="tag-logo" src="img/elements/tag-brand.png">
+			
+			<div class="container-fluid">
+				<h2>Swift Subset Interpreter</h2>
+				<h4>Jython // Python Lex-Yacc </h4>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+						<p>For the final project of the Elements of Programming Languages course taught at The University of Texas at Austin, Fahran Kamili and I decided to create a Python intepreter for a subset of the Swift programming language. This included variable assignments, arithmetic expressions, print statements, and switch-case statements. In order to do this, tokens are defined at the base level as groups of characters that can be recognized by the interpreter. The tokens are then strung together into various grammar rules that define an acceptable Swift statement, and the expected output is done so in Python.
+						<br><br>
+						See the source code <a href="https://github.com/themerro/PLFinal/tree/master/Swift">here</a>.
+						</p>
+					</div>
+					  
+				</div>
+				
+			</div>
+			</div>
+
+
+
+			</div>
+	   		
+		</div>
+		</div>
+   	</div>
+
+    	
+	</body>
+
+
+</html>

@@ -1,0 +1,49 @@
+#hello-container {
+    background: #ff837b;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, -60%);
+    &.fin {
+        .path-1, .path-2, .path-3 {
+            stroke-dashoffset: 0;
+        }
+        .path-4 {
+            stroke-width: 18px;
+        }
+    }
+}
+.path {
+    fill: none;
+    stroke: #362f3c;
+    stroke-width: 18px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.path-1 {
+  stroke-dasharray: 2000;
+  animation: draw 5s linear;
+}
+.path-2 {
+  stroke-dasharray: 260 1000;
+  animation: draw 1.2s linear 5.2s;
+}
+.path-3 {
+  stroke-dasharray: 100 1000;  
+  animation: draw 0.1s linear 7.5s;;
+}
+@-webkit-keyframes draw {
+  from {
+    stroke-dashoffset: -100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+/*
+
+
+.path-4 {
+  stroke-width: 0;
+}*/
